@@ -10,8 +10,10 @@ R1=$(($a+$b*$c)); echo $R1
 
 
 #use_case_2
-
 R2=$(($c+$a/$b)); echo $R2
  
 #usecase_3
 R3=$(($a%$b+$c)); echo $R3
+
+#usecase_4
+R4=$(($a*$b+$c)); echo $R4
